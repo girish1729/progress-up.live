@@ -1,34 +1,17 @@
-{{define "main"}}
-
-    <link rel="stylesheet"  href="/css/normalize.min.css">
-
+{{ define "main" }}
+  <link rel="stylesheet"  href="/css/normalize.min.css">
     {{ partial "navbar.html" . }}
-<section class="blog">
-  <div class="container">
-    <div class="row">
-      {{ range .Paginator.Pages }}
+  <h1>{{.Title}}</h1>
+ <div class="w-full flex flex-col justify-center items-center">
+   {{ range .Pages }}
+    <section class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
+<a class='no-underline' href="{{ .Permalink }}" title="{{ .Title }}">
+	<h2 class="text-3xl no-underline"> {{ .Title }}</h2>
+	<img src="{{ .Params.featureImage }}" alt="{{ .RelPermalink }}" />
+		<span class="date">{{.Date.Format "Jan 2" }}</span>
+	</a>
+     </section>
+    {{ end }}
+ </div>
+{{ end }}
 
-        <article class="blog-post">
-          <img src="{{ .Params.featureImage | absURL }}" alt="blog-images">
-          <div class="blog-content">
-    <div id="{{ .Title }}" class="w-full flex flex-col justify-center items-center">
-        <div class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
-            <h2 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4"><a href="{{ .Permalink }}">{{ .Title}}</a></h2>
-            <div class="font-light text-black text-lg">
-
-            <p> {{truncate 100 .Summary}} </p>
-            <a class="more" href="{{ .Permalink }}">Read more <span>⟶</span></a>
-          </div>
-        </article>
-      </div>
-
-      {{end}}
-      <div class="col-12">
-        <div class="blog-pagination">
-          {{partial "pagination.html" . }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{end}}

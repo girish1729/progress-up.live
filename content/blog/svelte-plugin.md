@@ -1,7 +1,7 @@
 ---
-title: "Svelte plugin for progress-up"
-date: 2018-11-28T15:15:26+10:00
-featureImage: svelte.webp
+title: "Svelte plugin details"
+date: 2023-02-16:15:26+10:00
+featureImage: "blog/svelte.jpg"
 draft: false
 weight: 3
 ---

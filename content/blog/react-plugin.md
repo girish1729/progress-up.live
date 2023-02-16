@@ -1,7 +1,7 @@
 ---
-title: "React plugin for progress-up"
-date: 2018-11-28T15:15:26+10:00
-featureImage: react.webp
+title: "React plugin details"
+date: 2023-02-16:15:26+10:00
+featureImage: "blog/react-plugin.jpg"
 draft: false
 weight: 3
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Drag and drop feature for progress-up"
-date: 2018-11-28T15:15:26+10:00
-featureImage: dnd.webp
+title: "Drag and drop files for upload"
+date: 2023-02-16:15:26+10:00
+featureImage: "blog/drag-drop.webp"
 draft: false
 weight: 3
 ---
@@ -10,7 +10,7 @@ weight: 3
 
 The way I did the HTML5 drag and drop is quite simple.
 
-All you had to do is plug into the event and you are done.
+All you had to do is plug into the events and you are done.
 
 However I added the nice feature of background change on dragging over.
 

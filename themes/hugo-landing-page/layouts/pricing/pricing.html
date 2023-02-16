@@ -1,0 +1,100 @@
+{{ define "main" }}
+   {{ partial "navbar.html" . }}
+
+    <div id="{{ .Title }}" class="w-full flex flex-col justify-center items-center">
+        <div class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
+            <h2 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">{{ .Title }}</h2>
+            <div class="font-light text-black text-lg">
+	{{/*
+                {{ .Content }}
+	*/}}
+            </div>
+        </div>
+    </div>
+
+    <section>
+     {{ $link := .Site.Data.pricing.link }}</p>
+
+<div class="container m-auto">        
+  <div class="flex flex-wrap items-center justify-center w-full text-center">            
+    <!-- 3 x pricing plan columns here -->
+<div class="w-full md:w-1/2 lg:w-1/3 p-4">
+  <div class="flex flex-col rounded border-2 border-blue-700 bg-blue-700">
+    <div class="py-5 text-blue-700 bg-white">
+      <h3>Personal</h3>
+      <p class="text-5xl font-bold">
+        <span class="text-3xl"> $29.99 </span>
+      </p>
+      <p class="text-xs uppercase">One time</p>
+    </div>           
+    <div class="py-5 bg-blue-700 text-white rounded-b">
+This is single user license of HTML5 uploader progress bar.
+
+<p>Support</p>
+<p>Unlimited features</p>
+<p>Lifetime warranty</p>
+
+      <button class="px-5 py-2 mt-5 uppercase rounded bg-white text-blue-700 font-semibold hover:bg-blue-900 hover:text-white">
+       Buy 
+      </button>
+    </div>            
+  </div>
+</div>
+
+<div class="w-full md:w-1/2 lg:w-1/3 p-4">
+  <div class="flex flex-col rounded border-2 border-blue-700 bg-red-700">
+   <div class="py-5 text-blue-700 bg-white">
+      <h3>Team</h3>
+      <p class="text-5xl font-bold">
+        <span class="text-3xl"> $99.99 </span>
+      </p>
+      <p class="text-xs uppercase">One time</p>
+    </div>          
+    <div class="py-5 bg-red-700 text-white rounded-b">
+This is team  license of HTML5 uploader progress bar.
+
+<p>Support</p>
+
+<p>Unlimited features</p>
+<p>Lifetime warranty</p>
+<p>Any # of team members</p>
+
+      <button class="px-5 py-2 mt-5 uppercase rounded bg-white text-blue-700 font-semibold hover:bg-blue-900 hover:text-white">
+        Buy
+      </button>
+   </div>            
+ </div>
+</div>
+
+<div class="w-full md:w-1/2 lg:w-1/3 p-4">
+  <div class="flex flex-col rounded border-2 border-blue-700 bg-yellow-700">
+   <div class="py-5 text-blue-700 bg-white">
+      <h3>Business</h3>
+      <p class="text-5xl font-bold">
+        <span class="text-3xl"> $299.99 </span>
+      </p>
+      <p class="text-xs uppercase">One time</p>
+    </div>          
+    <div class="py-5 bg-yellow-700 text-white rounded-b">
+
+This is business user license of HTML5 uploader progress bar.
+
+<p>Support</p>
+<p>Unlimited features</p>
+<p>Lifetime warranty</p>
+<p>Any # of team members</p>
+
+      <button class="px-5 py-2 mt-5 uppercase rounded bg-white text-blue-700 font-semibold hover:bg-blue-900 hover:text-white">
+        Buy 
+      </button>
+   </div>            
+ </div>
+</div>
+
+
+
+  </div>    
+</div>
+      </section>
+
+{{ end }}

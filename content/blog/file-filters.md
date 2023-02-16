@@ -1,7 +1,7 @@
 ---
-title: "File type filters for progress-up"
-date: 2018-11-28T15:15:26+10:00
-featureImage: filters.webp
+title: "File type filters allow/deny MIME types"
+date: 2023-02-16:15:26+10:00
+featureImage: "blog/file-filters.svg"
 draft: false
 weight: 3
 ---
@@ -29,7 +29,6 @@ particular file type or deny a particular file type.
 
 The files that are not scheduled for upload are shown with a red
 background below the list of files that match the upload condition.
-
 	          
 
 ## The filtering logic

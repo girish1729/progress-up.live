@@ -1,14 +1,14 @@
 ---
-title: "Angular plugin for progress-up"
-date: 2018-11-28T15:15:26+10:00
-featureImage: angular.webp
+title: "Angular plugin"
+date: 2023-02-16:15:26+10:00
+featureImage: "blog/angular.webp"
 draft: false
 ---
 
 # Angular plugin development
 
 Angular is one of the most popular web development frameworks for single
-page applications and with Angular material this is widely used.
+page applications.
 
 Angular has evolved over time with a focus on pure typescript code, CSS
 for each template and a rich plugin ecosystem.

@@ -1,23 +1,22 @@
 ---
-title: "Simple pricing for everyone"
+title: "Pricing details for progress-up"
 subtitle: >
-          Whether you're looking for a across the counter sale or
-          service we are there.
+          Progress-up is a free and open-source library, however, if you are using the library for business, commercial sites, projects, and applications, choose the commercial license to keep your source proprietary, to yourself.
 buttonTarget: "contact"
 itemPrices:
-  - packcage: "Stove repair"
+  - package: Personal edition
     description: >
-             Personal edition
+             Personal edition for one user
     price: 19.99$
     badge: 
-  - packcage: Personal license
+  - package: Team license
     description: >
-                Developer edition
+                Team edition upto 20 people
     price: 49.99$
     badge: popular
-  - packcage: Business license
+  - package: Business license
     description: >
-            Business license
+            Business license for unlimited use
     price: 299$
     badge:
 ---

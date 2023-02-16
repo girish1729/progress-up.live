@@ -11,8 +11,8 @@ subTitle: >
 
 {{<rawhtml>}}
 <div class="flex justify-center">
-<a target="_blank" "https://stackblitz.com/edit/express-simple-wur94p"
-class="bg-blue-200 rounded shadow-md text-black px-4 py-3
+<a target="_blank" href="https://stackblitz.com/edit/express-simple-wur94p"
+class="bg-blue-600 rounded shadow-md text-black px-4 py-3
 no-underline">HTML5 on Stackblitz </a>
 </div>
 {{</rawhtml>}}
