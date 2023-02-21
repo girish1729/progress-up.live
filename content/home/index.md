@@ -60,10 +60,6 @@ goal.
 This project was written ground up with latest technology as of Oct 22,
 2022.
 
-However the status of project is `Beta`.
-
-Most testing is needed. If you volunteer please [get in
-touch](https://twitter.com/girish1729).
 
 ## How to build and run as plain js
 

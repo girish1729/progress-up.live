@@ -1,6 +1,6 @@
 ---
 title: "File type filters allow/deny MIME types"
-date: 2023-02-16:15:26+10:00
+date: "2023-02-16T15:21:54+05:30"
 featureImage: "blog/file-filters.svg"
 draft: false
 weight: 3
@@ -21,6 +21,8 @@ more added.
 - Audio only
 - Zip only
 - Text only
+
+![File type filters](/blog/filters.png)
 
 You could also specify the file size accepted globally or per file.
 
@@ -55,3 +57,16 @@ The granularity is not very fine.
 For instance you cannot ban only mp4 files, but you can ban video files.
 
 Also more than one MIME type cannot be selected in the filter.
+
+## File size filter
+
+In addition to MIME type filters there is also a file size filter.
+
+Either you want to stop files below a certain size per file or globally
+after all files are scheduled for upload.
+
+With a combination of these two filters , you should have a fairly
+decent set of rules to implement for uploads.
+
+It could be applicable for company wide restrictions or for reasons like
+storage or performance.

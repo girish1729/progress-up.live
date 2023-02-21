@@ -1,12 +1,15 @@
 ---
 title: "Drag and drop files for upload"
-date: 2023-02-16:15:26+10:00
+date: "2023-02-16T15:21:54+05:30"
 featureImage: "blog/drag-drop.webp"
 draft: false
 weight: 3
 ---
 
 # Drag and drop 
+
+File upload is best done using drag and drop without having to use a
+file chooser.
 
 The way I did the HTML5 drag and drop is quite simple.
 
@@ -15,6 +18,9 @@ All you had to do is plug into the events and you are done.
 However I added the nice feature of background change on dragging over.
 
 I find this will really help the usability.
+
+The HTML5 spec is clear on drag and drop and this is well supported
+across all browsers. Coding is simple too.
 
 ## Challenges
 
@@ -57,3 +63,14 @@ The way this works is similar to other javascript browser events.
 
 Once the drop is complete drag and drop completes.
 
+## How to use it in the plugin
+
+It works by default.
+
+When the files are dragged over the droppable region the background
+color changes to blue.
+
+This gives visual feedback to ease the upload process.
+
+Every-time a new set of files are chosen for upload the old ones are
+deleted from the upload queue.

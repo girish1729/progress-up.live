@@ -1,6 +1,6 @@
 ---
 title: "Svelte plugin details"
-date: 2023-02-16:15:26+10:00
+date: "2023-02-16T15:21:54+05:30"
 featureImage: "blog/svelte.jpg"
 draft: false
 weight: 3
@@ -39,105 +39,9 @@ I also use store.ts which significantly reduces code reuse.
 Svelte has reactivity built into its coding and you only have to use
 the storable properly and you will get it going.
 
-## Code sample
-
-Here are some code samples.
-
-This is `ProgressUp.svelte`.
 
 
-```ts
-<script lang='ts'>
-   import {openTab, totalsize, totalfiles, inputs, uploadFileList, uploadFileInfos, errInfos, progressBars, } from './store.js';
-
-
-
-let darkMode = false;
-
-    let disableUpload = true;
-    let thumbNailsDone = false;
-    let isDragged = false;
-    let details = '';
-
-   function toggle() {
-        darkMode = !darkMode;
-        window.document.body.classList.toggle('dark');
-    }
-
- 
- const checkTotalSize =() => {
-        if ($inputs.sizeLimitType == "Total limit") {
-            if ($totalsize <= ($inputs.fileSizeLimit * 1024 * 1024)) {
-                return true;
-            }
-            return false;
-        }
-        return false;
-    };
-
-       const delItem = (index:number) => {
-	let s:number;
-	s = $uploadFileList[index].size;
-        $totalsize -= s;
-        $uploadFileList.splice(index, 1);
-	let list = $uploadFileList as File[];
-        $uploadFileList = list;
-
-        $uploadFileInfos && $uploadFileInfos.splice(index, 1);
-        checkTotalSize();
-    };
-
-
-import Tab1 from './tab1.svelte';
-import Tab2 from './tab2.svelte';
-import Tab3 from './tab3.svelte';
-import Tab4 from './tab4.svelte';
-</script>
-
-
-```
-
-And from store.ts.
-
-```ts
-import { writable } from 'svelte/store';
-
-export const inputs = writable({
-        uploadURL: "",
-        filesName: "",
-        progType: "Line",
-        authEnabled: false,
-        authType: "",
-        user: "",
-        pass: "",
-        fileSizeLimit: 10,
-        sizeLimitType: "Single file limit",
-        fileTypeFilter: "All",
-        fileTypeAction: "Allow file type"
-});
-
-type statsTableType = {
-    id: number;
-    ts: string;
-    status: string;
-    details: string;
-};
-
-type fileInfo = {
-    file: File;
-    id: string;
-    ts: string;
-    thumb: string;
-    meta: string;
-    bytesSent: string;
-    rate: string;
-    eta: string;
-};
-```
-
-
-
-## How you can use it
+## How to use it?
 
 {{<rawhtml>}}
 <div class="flex justify-center">

@@ -8,8 +8,7 @@
 <a class='no-underline' href="{{ .Permalink }}" title="{{ .Title }}">
 	<h2 class="text-3xl no-underline"> {{ .Title }}</h2>
 	<img src="{{ .Params.featureImage }}" alt="{{ .RelPermalink }}" />
-		<span class="date">{{.Date.Format "Jan 2" }}</span>
-	</a>
+		<span class="date">{{.Date.Format "2 Jan 2006"}}</a>
      </section>
     {{ end }}
  </div>

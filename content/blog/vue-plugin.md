@@ -1,6 +1,6 @@
 ---
 title: "Vue plugin details"
-date: 2023-02-16:15:26+10:00
+date: "2023-02-16T15:21:54+05:30"
 featureImage: "blog/vue-plugin.jpg"
 draft: false
 weight: 3
@@ -36,160 +36,7 @@ sits along with template to deliver functionality.
 Reactivity and HTML interpolation occurs using the standard vue methods
 and `v-for` looping constructs.
 
-## Code sample
-
-Here is some sample code from `ProgressUp.vue`.
-
-
-```ts
-<script lang="ts">
-import axios from "axios";
-import ldBar from "./assets/progressBar/loading-bar.js";
-import PDFObject from 'pdfobject';
-
-export default {
-    data() {
-        return {
-            openTab: 1,
-	    errAlert: false,
-	    thumbNailsDone: false,
-            dragging: false,
-	    totalsize: 0,
-	    totalfiles: 0,
-	    totaltime: 0,
-            authEnabled: false,
-            filterLabel : "Allow file type",
-            sizeLabel : "Single file limit",
-            filtFiles : {
-                "type": "all",
-                "action": "allow"
-            },
-            form: {
-                uploadURL: '',
-                filesName: '',
-                authType: '',
-                user: '',
-                pass: '',
-                progType: 'Rainbow',
-                fileSizeLimit: 10,
-                sizeLimitType: "Single file limit",
-                fileTypeFilter: "All",
-                fileTypeAction: "Allow file type"
-            },
-
-    fileTypes:  {
-        "video": 'avi.svg',
-        "css": 'css.svg',
-        "csv": 'csv.svg',
-        "eps": 'eps.svg',
-        "excel": 'excel.svg',
-        "html": 'html.svg',
-        "movie": 'mov.svg',
-        "mp3": 'mp3.svg',
-        "other": 'other.svg',
-        "pdf": 'pdf.svg',
-        "ppt": 'ppt.svg',
-        "rar": 'rar.svg',
-        "text": 'txt.svg',
-        "audio": 'wav.svg',
-        "word": 'word.svg',
-        "zip": 'zip.svg'
-    },
-            uploadFileInfos: [],
-            uploadFileList: [],
-            errInfos: [],
-            statsTable: [],
-            progressBars: [],
-            disableUpload: true,
-            details: "",
-        };
-    },
-
-    updated() {
-        this.$nextTick(() => {
-            this.createBars();
-            if (this.form.uploadURL == '' || this.form.filesName == '') {
-                this.disableUpload = true;
-            } else {
-		if(this.uploadFileList.length > 0) {
-                	this.disableUpload = false;
-		}
-	    }
-        });
-    },
-
-
-```
-
-And some template.
-
-```html
-
-<div id="progress-up-progressArea"> 
-  <div v-for="(info,id) in uploadFileInfos" :key="id" >
-    <section class="m-4 p-4 mt-4 mb-4 transition-colors
-    text-light-100 dark:text-white mx-auto">
-     <div class="bg-dark dark:bg-gray dark:text-white rounded-md border border-red-800 rounded py-3 px-6
-    border-gray-300 text-gray-600 dark:text-white relative">
-    
-      <div @click="delItem(id)" title="Delete" class="absolute
-    cursor-pointer top-0 right-0 mr-2 dark:bg-white" >
-    	<img width="25" height="25" src="./assets/icons/misc/trash-icon.svg" />
-      </div>
-    
-      <div class="flex flex-wrap -mx-2 mb-8">
-          <div class="w-full md:w-1/3 lg:w-1/4 px-2 mb-4">
-             <div class="h-12 text-sm text-grey-dark flex items-left
-    justify-left">
-		<div  v-html="info.thumb" :id="info.id + '-thumb'"></div>
-             </div>
-          </div>
-    
-          <div class="w-full md:w-1/3 lg:w-1/4 px-2 mb-4">
-            <div class="h-12 text-sm text-grey-dark flex items-left justify-left">
-              <ul>
-          	    <li  class="text-xl font-light leading-relaxed text-gray-800
-    dark:text-white">
-          	    Name: {{info.file.name}}
-          	    </li>
-          	    <li class="text-xl font-light leading-relaxed text-gray-800
-    dark:text-white">
-          	    Date: {{info.ts}}
-          	    </li>
-          	    <li class="text-xl font-light leading-relaxed text-gray-800
-    dark:text-white">
-          	    Type: {{info.file.type}}
-          	    </li>
-          	    <li class="text-xl font-light leading-relaxed text-gray-800
-    dark:text-white">
-          	    Size: {{info.size}} 
-          	    </li>
-       	    <li class="font-light leading-relaxed text-gray-800 dark:text-white">
-		    Metadata: {{info.meta}}
-          	    </li>
-
-      	    <li class="text-xl font-light leading-relaxed text-gray-800
-    dark:text-white">
-
-		<span>{{info.bytesSent}} of {{info.size}} uploaded
-{{info.rate}} MB/s ETA {{info.eta}} s</span>
-          	    </li>
-     
-              </ul>
-            </div>
-           </div>
-      </div>
-          <div class='ldBar bottom-0 right-0 pb-8' :id="info.id" >
-	  </div>
-      </div>
-    </section>
-  </div>
-</div>
-
-
-```
-
-## How you can use it
+## How do you use it?
 
 {{<rawhtml>}}
 <div class="flex justify-center">
@@ -220,9 +67,15 @@ done.
 	<progress-up></progress-up>
 ```
 
-
 ## Challenges
 
 The only challenge I faced in the vue work was the unhelpful debug
 messages.
 
+Vue.js is a really nice easy to use framework and is nice for rapid
+prototyping and quick projects.
+
+I used vite and the packaging tools with it.
+
+The documentation on vue.js is bit scarce but the code is easy to follow
+and the plugins available on npm and github are impressive.

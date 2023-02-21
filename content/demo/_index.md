@@ -5,9 +5,9 @@ subTitle: >
     Progress-up - HTML5 based multiple image upload progress indicator plugin demos
 ---
 
-## Live demos
+# Live demos
 
-## HTML5  demo
+- HTML5 
 
 {{<rawhtml>}}
 <div class="flex justify-center">
@@ -19,7 +19,7 @@ no-underline">HTML5 on Stackblitz </a>
 
 [Running natively](/progress-up-html5) 
 
-## [Vue.js](https://www.vuejs.org)  demo
+- [Vue.js](https://www.vuejs.org)
 
 {{<rawhtml>}}
 <div class="flex justify-center">
@@ -29,9 +29,7 @@ no-underline">Vue on Stackblitz </a>
 </div>
 {{</rawhtml>}}
 
-
-
-## [Angular](https://angular.io) demo
+- [Angular](https://angular.io)
 
 {{<rawhtml>}}
 <div class="flex justify-center">
@@ -41,10 +39,7 @@ no-underline">Angular on Stackblitz </a>
 </div>
 {{</rawhtml>}}
 
-
-
-
-## [React TS](https://reactjs.org) demo
+- [React TS](https://reactjs.org)
 
 {{<rawhtml>}}
 <div class="flex justify-center">
@@ -54,7 +49,7 @@ no-underline">React on Stackblitz </a>
 </div>
 {{</rawhtml>}}
 
-## [Svelte](https://svelte.dev) demo
+- [Svelte](https://svelte.dev) 
 
 {{<rawhtml>}}
 <div class="flex justify-center">
@@ -63,5 +58,4 @@ class="bg-blue-600 rounded shadow-md text-black px-4 py-3
 no-underline">Svelte on Stackblitz </a>
 </div>
 {{</rawhtml>}}
-
 
