@@ -34,9 +34,9 @@ title = "progress-up - HTML5 file upload progress plugin"
 [[params.headermenu]]
    link = "/blog"
    title = "Blogs"
-[[params.headermenu]]
-   link = "/pricing"
-   title = "Pricing"
+#[[params.headermenu]]
+#  link = "/pricing"
+#  title = "Pricing"
 
 
 [[params.social]]
