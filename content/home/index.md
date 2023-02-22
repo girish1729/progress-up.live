@@ -1,45 +1,23 @@
-# Progress.up HTML5 File Upload Progress indicator
+## What is Progress-up?
 
-## What is this?
+A HTML5 multiple files Upload plugin with progress bar indicator and
+file preview.
 
-This is a HTML5 multiple files Upload plugin with progress bar
-indicator.
+It uses the [HTTP File API](https://www.w3.org/TR/FileAPI/) to show continuous progress.
 
-This uses the [HTTP File API](https://www.w3.org/TR/FileAPI/) to show continuous progress.
+Now available for 
 
-This uses the HTTP File API protocol to show continuous progress.
+- Angular 
+- Vue 
+- Svelte 
+- React
 
->This is the very first attempt to create a clean no frills upload plugin
->in 100% Javascript. Now available for Angular, Vue, Svelte and React.
+in addition to vanilla Javascript.
 
 [Canonical home page](https://progress-up.live)
 
-## Instructions
-
-### Angular
-
-```shell
-	$ npm install progress-up-angular
-```
-
-### React
-
-```shell
-	$ npm install progress-up-react
-```
-
-### Vue
-
-```shell
-	$ npm install progress-up-vue
-```
-
-### Svelte
-
-```shell
-	$ npm install progress-up-svelte
-```
-
+ {{< figure src="/screenshots/progress-up-beforeupload.png" caption="More stats" >}}
+ 
 ## Detailed instructions
 
 - [Developer docs](https://progress-up.live/docs)
@@ -57,20 +35,18 @@ cool way to give user feedback.
 Nowadays HTML5 File API based progress is the best way to achieve your
 goal.
 
-This project was written ground up with latest technology as of Oct 22,
-2022.
-
 
 ## How to build and run as plain js
-
 
 ```shell
 $ git clone https://github.com/girish1729/progress.up
 $ cd progress.up/backend
 $ yarn install
+```
 
-# or
+Or
 
+```shell
 $ npm install
 
 $ mkdir uploads
@@ -78,13 +54,9 @@ $ mkdir uploads
 $ npm start
 ```
 
-Go to [http://localhost:2324](http://localhost:2324)
+Now head to [http://localhost:2324](http://localhost:2324)
 
- and try uploading files.
-
-You may use manual upload.
-
- Drag and drop into the shaded area is not implemented yet.
+to try uploading files.
 
 The uploaded files are present in `backend/uploads` folder.
 
@@ -96,26 +68,14 @@ This backend is [Node.js HTTP server express.js](https://expressjs.com) with [mu
 > Most issues with file upload plugins extant today hover around
 > not specifying backend correctly. Not making it easy to use.
 > Not explaining what should be the input file name attribute etc.
-> 
 
 We require a backend that accepts `multipart/form-data` as upload
 protocol.
 
-## Frontend - the plugin itself
+Please also ensure the file names array in input field matches the
+backend configuration.
 
-It is using the HTML5 File API.
-
-This is a clean way to get progress indicator for file uploads.
-
-
-## Next steps
-
-If you wish to collaborate or send pull requests 
-please [get in touch](https://twitter.com/girish1729) using my Github profile.
-
-If you cannot write code, then buying me a coffee can work as well.
-
-## Alternatives
+## Alternatives to progress-up
 
 - [Uppy](https://github.com/transloadit/uppy)
 - [DropIt](https://github.com/ThalKod/DropIt)
@@ -123,4 +83,3 @@ If you cannot write code, then buying me a coffee can work as well.
 - [Filepond](https://github.com/pqina/filepond)
 - [Krajee bootstrap file input](https://github.com/kartik-v/bootstrap-fileinput)
 - [Dropzone](https://github.com/dropzone/dropzone)
-

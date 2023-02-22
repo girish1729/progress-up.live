@@ -6,6 +6,8 @@ enableEmoji = true
 theme = "hugo-landing-page"
 disableKinds = ["RSS","taxonomy","taxonomyTerm"] 
 title = "progress-up - HTML5 file upload progress plugin" 
+[markup.goldmark.renderer]
+    unsafe = true
 
 [author]
     name = "Girish Venkatachalam"
