@@ -4,13 +4,14 @@ title: "Screenshots of Progress-up"
 
 # Some screenshots of progress-up
 
-{{< figure src="/screenshots/dnd.gif" caption="Drag and drop" >}}
  {{< figure src="/screenshots/progress-up-banned.png"  caption="Banned files" >}}
  {{< figure src="/screenshots/progress-up-beforeupload.png" caption="Before upload" >}}
  {{< figure src="/screenshots/progress-up-darkmode.png" caption="Dark mode preview" >}}
  {{< figure src="/screenshots/progress-up-fullyuploaded.png" caption="After upload" >}}
  {{< figure src="/screenshots/progress-up-help.png" caption="Help tab" >}}
  {{< figure src="/screenshots/progress-up-helptab.png" caption="Help tab" >}}
+
+{{< figure src="/screenshots/dnd.gif" caption="Drag and drop" >}}
  {{< figure src="/screenshots/progress-uploading.gif" caption="Uploading gif" >}}
  {{< figure src="/screenshots/progress-up-maintab.png" caption="Main tab" >}}
  {{< figure src="/screenshots/progress-up-preview2.png" caption="One more preview" >}}

@@ -1,15 +1,17 @@
 ---
 title: "Features"
 left:
-   - Lightweight and modular &#9748;
-   - Plugin-based architecture &#9925;
-   - No dependencies &#9939;
-   - Large uploads work due to progress indicator &#127908;
-   - Users pick files using drag and drop &#127939;
+   - Lightweight and modular &#127880;
+   - Plugin-based architecture &#128268;
+   - No dependencies &#127913;
+   - Track uploads with progress indicator &#128099;
+   - Drag and drop &#128761;
+   - Files are previed before upload &#127916;
 right:
-   - Works great with the file encoding and processing &#127939;
-   - Open source and driven by the community &#127939;
-   - Sleek user interface &#127939;
-   - Built with accessibility in mind &#127939;
-   - Free to the world, forever &#127939;
+   - Works great with any file encoding and processing &#127939;
+   - Open source and driven by the community &#127938;
+   - No frills sleek user interface &#127958;
+   - Simple interface &#128736;
+   - Free to the world, forever &#129345;
+   - Available for all popular frameworks &#128218;
 ---

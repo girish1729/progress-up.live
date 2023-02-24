@@ -32,10 +32,10 @@ title = "progress-up - HTML5 file upload progress plugin"
    title = "Svelte"
 [[params.headermenu]]
    link = "/demo"
-   title = "Live demos"
+   title = "Demo"
 [[params.headermenu]]
    link = "/blog"
-   title = "Blogs"
+   title = "Blog"
 #[[params.headermenu]]
 #  link = "/pricing"
 #  title = "Pricing"
