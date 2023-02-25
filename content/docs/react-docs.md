@@ -16,6 +16,13 @@ This document will help you going within minutes.
 This is just a sample and for complex integrations you will have to do
 more work.
 
+First install the plugin for react.
+
+```shell
+	$ npm install progress-up-react
+# or 
+	$ yarn add progress-up-react
+```
 
 This is `src/main.tsx`.
 

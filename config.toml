@@ -5,7 +5,7 @@ canonifyUrls = true
 enableEmoji = true
 theme = "hugo-landing-page"
 disableKinds = ["RSS","taxonomy","taxonomyTerm"] 
-title = "progress-up - HTML5 file upload progress plugin" 
+title = "progress-up - HTML5 multiple file uploader with progress display" 
 [markup.goldmark.renderer]
     unsafe = true
 
@@ -13,23 +13,14 @@ title = "progress-up - HTML5 file upload progress plugin"
     name = "Girish Venkatachalam"
     email = "girish@spamcheetah.com"
 [params]
-    description = "Progress-up - HTML5 multiple file upload plugin" 
+    description = "Progress-up - HTML5 multiple file uploader with progress display " 
     images = [] 
 [[params.headermenu]]
    link = "/screenshots"
    title = "Screenshots"
 [[params.headermenu]]
-   link = "/docs/vue-docs"
-   title = "Vue"
-[[params.headermenu]]
-   link = "/docs/angular-docs"
-   title = "Angular"
-[[params.headermenu]]
-   link = "/docs/react-docs"
-   title = "React"
-[[params.headermenu]]
-   link = "/docs/svelte-docs"
-   title = "Svelte"
+   link = "/docs"
+   title = "Getting started"
 [[params.headermenu]]
    link = "/demo"
    title = "Demo"

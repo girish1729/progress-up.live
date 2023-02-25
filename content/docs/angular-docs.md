@@ -11,6 +11,14 @@ Angular is a framework for developing typescript apps from Google. In
 order to integrate `progress-up` with your angular project please follow
 the instructions in this document.
 
+First install the plugin for Angular.
+
+```shell
+	$ npm install progress-up-angular
+# or 
+	$ yarn add progress-up-angular
+```
+
 - Create a new project
 
 ```shell

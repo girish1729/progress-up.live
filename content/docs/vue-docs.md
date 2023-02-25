@@ -14,6 +14,15 @@ very popular for quick prototyping and serious projects.
 This page details how you can integrate progress-up with vue
 applications.
 
+First install the plugin for vue.
+
+
+```shell
+	$ npm install progress-up-vue
+# or 
+	$ yarn add progress-up-vue
+```
+
 This is `src/main.ts`.
 
 ```js

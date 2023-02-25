@@ -13,6 +13,15 @@ excellent packaging built into its base tooling.
 
 Here is how you would integrate `progress-up` with svelte.
 
+First install the plugin for svelte.
+
+```shell
+	$ npm install progress-up-svelte
+# or 
+	$ yarn add progress-up-svelte
+```
+
+
 
 This is `src/main.ts`.
 
