@@ -7,25 +7,42 @@ subTitle: >
 
 # Live demos
 
-- HTML5 
+- HTML5  on Stackblitz
 
 {{<rawhtml>}}
 <div class="flex justify-center">
 <a target="_blank" href="https://stackblitz.com/edit/express-simple-wur94p"
-class="bg-blue-600 rounded shadow-md text-black px-4 py-3
-no-underline">HTML5 on Stackblitz </a>
+class="text-lg
+ px-3 py-3 shadow-md text-black no-underline bg-transparent
+hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+
+>HTML5 on Stackblitz </a>
 </div>
 {{</rawhtml>}}
 
-[Running natively](/progress-up-html5) 
+- HTML5 native
+
+{{<rawhtml>}}
+<div class="flex justify-center">
+<a target="_blank" href="/progress-up-html5"
+class="text-lg
+ px-3 py-3 shadow-md text-black no-underline bg-transparent
+hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+
+>Running locally(faster) </a>
+</div>
+{{</rawhtml>}}
 
 - [Vue.js](https://www.vuejs.org)
 
 {{<rawhtml>}}
 <div class="flex justify-center">
 <a target="_blank" href="https://vue-gctrks.stackblitz.io"
-class="bg-blue-600 rounded shadow-md text-black px-4 py-3
-no-underline">Vue on Stackblitz </a>
+class="text-lg
+ px-3 py-3 shadow-md text-black no-underline bg-transparent
+hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+
+>Vue on Stackblitz </a>
 </div>
 {{</rawhtml>}}
 
@@ -34,8 +51,11 @@ no-underline">Vue on Stackblitz </a>
 {{<rawhtml>}}
 <div class="flex justify-center">
 <a target="_blank" href="https://angular-ivy-pu628h.stackblitz.io"
-class="bg-blue-600 rounded shadow-md text-black px-4 py-3
-no-underline">Angular on Stackblitz </a>
+class="text-lg
+ px-3 py-3 shadow-md text-black no-underline bg-transparent
+hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+
+>Angular on Stackblitz </a>
 </div>
 {{</rawhtml>}}
 
@@ -44,8 +64,10 @@ no-underline">Angular on Stackblitz </a>
 {{<rawhtml>}}
 <div class="flex justify-center">
 <a target="_blank" href="https://react-ts-iscadj.stackblitz.io"
-class="bg-blue-600 rounded shadow-md text-black px-4 py-3
-no-underline">React on Stackblitz </a>
+class="text-lg
+ px-3 py-3 shadow-md text-black no-underline bg-transparent
+hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+>React on Stackblitz </a>
 </div>
 {{</rawhtml>}}
 
@@ -54,8 +76,11 @@ no-underline">React on Stackblitz </a>
 {{<rawhtml>}}
 <div class="flex justify-center">
 <a target="_blank" href="https://stackblitz.com/edit/vitejs-vite-vu9dag"
-class="bg-blue-600 rounded shadow-md text-black px-4 py-3
-no-underline">Svelte on Stackblitz </a>
+class="text-lg
+ px-3 py-3 shadow-md text-black no-underline bg-transparent
+hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+
+>Svelte on Stackblitz </a>
 </div>
 {{</rawhtml>}}
 

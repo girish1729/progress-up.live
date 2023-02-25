@@ -18,14 +18,13 @@ Here’s the simplest example html page with Progress-up (it uses a CDN bundle, 
 
 {{<rawhtml>}}
 <div class="flex justify-center">
-<a target="_blank" href="https://stackblitz.com/edit/express-simple-wur94p"
-class="bg-blue-600 rounded shadow-md text-black px-4 py-3
-no-underline">HTML5 on Stackblitz </a>
+   <a target="_blank" href="/progress-up-html5" class="text-lg
+ px-3 py-3 shadow-md text-black no-underline bg-transparent
+hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+Live demo</a>
+
 </div>
 {{</rawhtml>}}
-
-[Running natively](/progress-up-html5) 
-
 
 
 Drag and drop, preview for most file types, simple filters based on size
@@ -66,8 +65,63 @@ and HTML templating.
 ```
 
 
+## Banned files
+
+Once you determine the MIME filters and size limitations by configuring
+in the setup tab then the files that are chosen for upload that do not
+match the criterion are marked as unavailable for upload by marking them
+in red. Please check [screenshots](/screenshots) for an idea how they
+look.
+
+These files are left out whilst uploading but the previews are shown just
+like a normal file scheduled for upload.
+
+## The tabs in progress-up UI
+
+### The Upload tab
+
+This is just a drag and drop and upload area. Underneath a line shows
+the vital parameters that are needed for upload with two buttons.
+
+- Begin uploading
+- Reset form
+
+The items shown in the line are the progress indicator(one of the 10
+choices) and the upload URL and files array name.
+
+ {{< figure src="/screenshots/progress-up-maintab.png" caption="Main tab" >}}
+
+### The Setup tab
+
+The setup tab is the most important tab for configuring progress-up.
+
+You can setup the MIME and size filter along side the upload URL, the
+files array and progress indicator.
+
+
+ {{< figure src="/screenshots/progress-up-setup.png" caption="Setup tab" >}}
+
+### The Stats tab
+
+The stats tab is used for showing the statistics of an upload session.
+
+These do not go away when you click at the reset form in the upload tab.
+
+The statistics are collected for each session to tell you the details of
+each upload operation.
+
+The number of files successfully sent, the time taken and other details.
+
+ {{< figure src="/screenshots/progress-up-statstab2.png" caption="Stats tabe" >}}
+
+### The Help tab
+
+The help tab serves as a quick reference for those new to progress-up.
+
+ {{< figure src="/screenshots/progress-up-help.png" caption="Help tab" >}}
 
 ## Documentation
+
 
 - Progress-up — full list of options, methods and events.
 

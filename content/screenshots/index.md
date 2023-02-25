@@ -16,7 +16,7 @@ title: "Screenshots of Progress-up"
  {{< figure src="/screenshots/progress-up-maintab.png" caption="Main tab" >}}
  {{< figure src="/screenshots/progress-up-preview2.png" caption="One more preview" >}}
  {{< figure src="/screenshots/progress-up-setup.png" caption="Setup tab" >}}
- {{< figure src="/screenshots/progress-up-statstab2.png" caption="Stats tabe" >}}
+ {{< figure src="/screenshots/progress-up-statstab2.png" caption="Stats tab" >}}
  {{< figure src="/screenshots/progress-up-statstab.png" caption="More stats" >}}
  {{< figure src="/screenshots/progress-video.gif" caption="Progress bar update" >}}
  {{< figure src="/screenshots/setup.png" caption="setup tab" >}}
