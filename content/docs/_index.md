@@ -70,8 +70,11 @@ and HTML templating.
 Once you determine the MIME filters and size limitations by configuring
 in the setup tab then the files that are chosen for upload that do not
 match the criterion are marked as unavailable for upload by marking them
-in red. Please check [screenshots](/screenshots) for an idea how they
+in red. Please check screenshots below for an idea how they
 look.
+
+ {{< figure src="/screenshots/progress-up-banned.png"  caption="Banned files" >}}
+
 
 These files are left out whilst uploading but the previews are shown just
 like a normal file scheduled for upload.
@@ -112,7 +115,7 @@ each upload operation.
 
 The number of files successfully sent, the time taken and other details.
 
- {{< figure src="/screenshots/progress-up-statstab2.png" caption="Stats tabe" >}}
+ {{< figure src="/screenshots/progress-up-statstab2.png" caption="Stats tab" >}}
 
 ### The Help tab
 
@@ -122,36 +125,12 @@ The help tab serves as a quick reference for those new to progress-up.
 
 ## Documentation
 
-
-- Progress-up — full list of options, methods and events.
-
-- Plugins — list of Uppy plugins and their options.
-
-- Server — setting up and running a Companion instance, which adds support for Instagram, Dropbox, Google Drive, direct links, and other remote sources.
-
-- React — components to integrate Uppy UI plugins with React apps.
-
-- Writing Plugins — how to write a plugin for Uppy (documentation in progress).
-
-- [Angular](/docs/angular-docs)
-- [Vue.js](/docs/vue-docs)
-- [React](/docs/react-docs)
-- [Svelte](/docs/svelte-docs)
+- [Angular plugin setup and usage](/docs/angular-docs)
+- [Vue.js plugin setup and usage](/docs/vue-docs)
+- [React plugin setup and usage ](/docs/react-docs)
+- [Svelte plugin setup and usage](/docs/svelte-docs)
 
 ## Browser Support
 
 We aim to support recent versions of Chrome, Firefox, Safari and Edge.
 
-## Features at a glance
-
-1. HTML5 File API for uploading
-2. Multiple files sent in parallel
-3. 10 progress bars to choose from
-4. 4 tabs [setup, drag drop, stats, help]
-5. MIME and size filters [allow/deny, total/per file limit]
-6. Test upload feature to test backend
-7. Bare min config needed to start uploading
-8. Drag and drop
-9. Dark mode
-10. POST HTTP method
-11. Plugins for svelte, vue, react, angular
