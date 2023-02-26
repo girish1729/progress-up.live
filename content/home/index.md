@@ -14,7 +14,7 @@ Now available for
 
 in addition to vanilla Javascript.
 
-[Canonical home page](https://progress-up.live)
+A sample screenshot of the preview function.
 
  {{< figure src="/screenshots/progress-up-beforeupload.png" caption="More stats" >}}
  
@@ -53,12 +53,23 @@ $ mkdir uploads
 
 $ npm start
 ```
-
 Now head to [http://localhost:2324](http://localhost:2324)
 
 to try uploading files.
 
 The uploaded files are present in `backend/uploads` folder.
+
+{{<rawhtml>}}
+<div class="flex justify-center">
+   <a target="_blank" href="/progress-up-html5" class="text-lg
+ px-3 py-3 shadow-md text-black no-underline bg-transparent
+hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+Live demo</a>
+
+</div>
+{{</rawhtml>}}
+
+
 
 ## Backend
 
@@ -75,11 +86,4 @@ protocol.
 Please also ensure the file names array in input field matches the
 backend configuration.
 
-## Alternatives to progress-up
-
-- [Uppy](https://github.com/transloadit/uppy)
-- [DropIt](https://github.com/ThalKod/DropIt)
-- [Resumable.js](https://github.com/23/resumable.js)
-- [Filepond](https://github.com/pqina/filepond)
-- [Krajee bootstrap file input](https://github.com/kartik-v/bootstrap-fileinput)
-- [Dropzone](https://github.com/dropzone/dropzone)
+There is also a test upload feature to check if upload protocol works.

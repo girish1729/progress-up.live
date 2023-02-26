@@ -10,74 +10,43 @@ h3 {
 </style>
 
 <section>
-    <div id="{{ .Title }}" class="w-full flex flex-col justify-center items-center">
+    <div id="{{ .Title }}" class="w-full flex flex-col md:flex-row justify-center items-center">
         <div class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
-
-{{ with .Site.Data.features }}
-<div class="flex flex-row gap-4 sm:gap-8 lg:gap-10">
-	<div class="basis-1/2">
-	    <div class="bg-blue-200 rounded-lg p-10">
-	        <div class="flex flex-col text-left">
-	           <div class="typo-p1 mb-8">
-
-			    <div class="font-bold text-xl mb-2">Features</div>
-					{{range .left}}
-				           <p class="text-gray-700 text-base"> &#128311; {{. | safeHTML}}</p>
-				  	{{end}}
-
-		   </div>
-	        </div>
-	    </div>
-	</div>  
-
-	<div class="basis-1/2">
-	    <div class="bg-blue-200 rounded-lg p-10">
-	        <div class="flex flex-col text-left">
-	           <div class="typo-p1 mb-8">
-			    <div class="font-bold text-xl mb-2">Features</div>
-			
-					{{range .right}}
-				               <p class="text-gray-700
-text-base"> &#128311; {{. | safeHTML}}</p>
-				  	{{end}}
-		   </div>
-	        </div>
-	    </div>
-	</div>  
-</div>
-
-{{ end }}
-
-<div class="w-full bg-blue-200 rounded overflow-hidden shadow-lg mb-5">
-  <img class="w-full" src="/screenshots/setup.png" alt="Sunset in the mountains">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The setup tab</div>
-    <p class="text-gray-700 text-base">
-	This is how you setup the file uploader plugin. Just determine
-the policy for upload, the file size you like the mime types you allow,
-the endpoint URL, the name of input field and you are pretty much set.
-    </p>
-  </div>
-</div>
-
-<div class="w-full bg-blue-200 rounded overflow-hidden shadow-lg mb-5">
-  <img class="w-full" src="/screenshots/progress-up-preview2.png" alt="Sunset in the mountains">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The preview area</div>
-    <p class="text-gray-700 text-base">
-	You can preview any file 
-with as much detail as possible. This is a nice way to ensure you are
-uploading the right files. Preview is available for every file type
-around with maximum information shown `before uploading`.
-    </p>
-  </div>
-</div>
-
-
 
 {{ with site.GetPage "/home" }}
                 {{ .Content }}
 {{ end }}
+
+	<h2> Features </h2>
+{{ with .Site.Data.features }}
+<div class="w-full flex flex-row gap-2 sm:gap-2 lg:gap-2">
+	<div class="w-1/2">
+	    <div class="bg-blue-200 rounded-lg p-2 shadow-lg ">
+	           <div class="typo-p1 mb-2">
+
+					{{range .left}}
+				           <p class="text-gray-700
+text-sm"> &#128311; {{. | safeHTML}}</p>
+				  	{{end}}
+
+		   </div>
+	    </div>
+	</div>  
+
+	<div class="w-1/2">
+	    <div class="bg-blue-200 rounded-lg shadow-lg p-2 mb-2">
+	           <div class="typo-p1 mb-2">
+			{{range .right}}
+				<p class="text-gray-700 text-sm"> &#128311; {{. | safeHTML}}</p>
+			{{end}}
+		   </div>
+	    </div>
+	</div>  
+</div>
+
+{{ end }}
+
+
         </div>
     </div>
 
