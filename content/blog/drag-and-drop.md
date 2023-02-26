@@ -74,3 +74,6 @@ This gives visual feedback to ease the upload process.
 
 Every-time a new set of files are chosen for upload the old ones are
 deleted from the upload queue.
+
+
+[Back to blog](/blog)

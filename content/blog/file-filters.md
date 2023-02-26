@@ -70,3 +70,6 @@ decent set of rules to implement for uploads.
 
 It could be applicable for company wide restrictions or for reasons like
 storage or performance.
+
+
+[Back to blog](/blog)

@@ -77,3 +77,5 @@ the backend is reachable and if things are setup correctly.
 
 Also the frontend does not allow you to upload till some things are
 configured and the values make sense.
+
+[Back to blog](/blog)

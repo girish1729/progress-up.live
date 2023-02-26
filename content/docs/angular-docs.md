@@ -131,3 +131,5 @@ In case of complex projects you may have to do some more plumbing.
 But this is the broad idea.
 
 Of course you could get in touch for help.
+
+[Back to docs](/docs)

@@ -64,3 +64,5 @@ This is `package.json`.
 
 Should you get stuck you can always contact us for help.
 
+
+[Back to docs](/docs)

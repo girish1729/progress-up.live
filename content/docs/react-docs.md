@@ -69,3 +69,6 @@ This is `package.json`.
 
 Should you get stuck do not hesitate to contact us and we can help you
 get started.
+
+
+[Back to docs](/docs)

@@ -39,3 +39,5 @@ That will significantly speed up your development and it will also help
 maintain the code base in future.
 
 This incurs less technical debt which is helpful in the long run.
+
+[Back to docs](/docs)

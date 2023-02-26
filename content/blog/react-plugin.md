@@ -69,3 +69,5 @@ done.
 
 The rendering issues I had with the file preview was pretty challenging
 which was finally solved by changing the algorithm.
+
+[Back to blog](/blog)

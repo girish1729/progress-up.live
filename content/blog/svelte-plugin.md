@@ -81,3 +81,5 @@ And the documentation pretty good.
 
 Still it had to be learnt as I was quite new to svelte syntax.
 
+
+[Back to blog](/blog)

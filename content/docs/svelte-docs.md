@@ -70,3 +70,6 @@ defined and easy to get going.
 
 Should you get trouble getting the progress-up svelte plugin going you
 could get in touch with us and we will help.
+
+
+[Back to docs](/docs)

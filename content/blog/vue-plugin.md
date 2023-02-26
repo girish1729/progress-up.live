@@ -79,3 +79,5 @@ I used vite and the packaging tools with it.
 
 The documentation on vue.js is bit scarce but the code is easy to follow
 and the plugins available on npm and github are impressive.
+
+[Back to blog](/blog)

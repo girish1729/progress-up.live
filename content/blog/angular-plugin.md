@@ -84,3 +84,4 @@ Angular takes a really long time to build everytime.
 And the caching is very annoying too. You need to delete the `.angular`
 directory as well or you see the cached version.
 
+[Back to blog](/blog)
