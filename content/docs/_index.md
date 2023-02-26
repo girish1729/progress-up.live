@@ -141,3 +141,17 @@ The help tab serves as a quick reference for those new to progress-up.
 ## Browser Support
 
 We aim to support recent versions of Chrome, Firefox, Safari and Edge.
+
+## Features at a glance
+
+1. HTML5 File API for uploading
+2. Multiple files sent in parallel
+3. 10 progress bars to choose from
+4. 4 tabs [setup, drag drop, stats, help]
+5. MIME and size filters [allow/deny, total/per file limit]
+6. Test upload feature to test backend
+7. Bare min config needed to start uploading
+8. Drag and drop
+9. Dark mode
+10. POST HTTP method
+11. Plugins for svelte, vue, react, angular
