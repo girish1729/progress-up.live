@@ -1,5 +1,7 @@
 ## What is Progress-up?
 
+ {{< figure src="/screenshots/progress-uploading.gif" caption="Uploading gif" >}}
+
 A HTML5 multiple files Upload plugin with progress bar indicator and
 file preview.
 
