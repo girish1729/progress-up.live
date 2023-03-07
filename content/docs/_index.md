@@ -1,12 +1,11 @@
 ---
-title: "Progress-up documentation"
+title: "Getting started with Progress-up uploader"
 ---
-
-# Getting Started with progress-up
 
 Progress-up is a simple file uploader easy to setup. It fetches files from local disk, and uploads them to the final destination. 
 
-It’s fast simple to integrate and lets you think about more important
+It’s very simple to integrate with your existing application 
+and lets you think about more important
 problems than building a file uploader. :smile:
 
 Progress-up has various plugins for web development frameworks for easy
