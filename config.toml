@@ -15,7 +15,6 @@ title = "progress-up - HTML5 multiple file uploader with progress display"
 [params]
     description = "Progress-up - HTML5 multiple file uploader with progress display " 
     images =  ["images/screenshots/progress-up-fullyloaded.png"]
-    images = [] 
 [[params.headermenu]]
    link = "/screenshots"
    title = "Screenshots"
