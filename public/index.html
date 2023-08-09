@@ -1,163 +1,108 @@
-<!DOCTYPE html>
-<html class="min-h-screen" lang="en">
+<!doctype html><html class=min-h-screen lang=en>
 <head>
-	<meta name="generator" content="Hugo 0.68.3" />
-    
-        <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preload" href="/css/page.css" as="style" />
-
-<style>
-.layout-frame {
-                width: 860px;
-                height: 600px;
-		margin-left: 50%;
-                transform: translateX(-50%);
-                transform-origin: 0 0;
-}
-</style>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Progress-up - HTML5 multiple file uploader with progress display ">
-<meta name="author" content="">
-<meta name="robots" content="index,follow">
-
-        <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/images/screenshots/progress-up-fullyloaded.png"/>
-
-<meta name="twitter:title" content="progress-up - HTML5 multiple file uploader with progress display"/>
-<meta name="twitter:description" content="Progress-up - HTML5 multiple file uploader with progress display "/>
-
-        <meta property="og:title" content="progress-up - HTML5 multiple file uploader with progress display" />
-<meta property="og:description" content="Progress-up - HTML5 multiple file uploader with progress display " />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
-<meta property="og:image" content="/images/screenshots/progress-up-fullyloaded.png"/>
-<meta property="og:updated_time" content="2023-02-16T15:21:54+05:30" />
-
-
-<base href="/">
-<meta name="theme-color" content="#ffffff">
+<meta name=generator content="Hugo 0.92.2">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel=preload href=/css/page.css as=style>
+<style>.layout-frame{width:860px;height:600px;margin-left:50%;transform:translateX(-50%);transform-origin:0 0}</style>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=description content="Progress-up - HTML5 multiple file uploader with progress display ">
+<meta name=author content>
+<meta name=robots content="index,follow">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="/images/screenshots/progress-up-fullyloaded.png">
+<meta name=twitter:title content="progress-up - HTML5 multiple file uploader with progress display">
+<meta name=twitter:description content="Progress-up - HTML5 multiple file uploader with progress display ">
+<meta property="og:title" content="progress-up - HTML5 multiple file uploader with progress display">
+<meta property="og:description" content="Progress-up - HTML5 multiple file uploader with progress display ">
+<meta property="og:type" content="website">
+<meta property="og:url" content="/"><meta property="og:image" content="/images/screenshots/progress-up-fullyloaded.png">
+<base href=/>
+<meta name=theme-color content="#ffffff">
 <title>progress-up - HTML5 multiple file uploader with progress display</title>
-
-<link rel="stylesheet" href="/css/page.css">
-
-    
+<link rel=stylesheet href=/css/page.css>
 </head>
-<body id="top" class="min-h-screen body-font font-poppins">
-        <main>
-            
-    
-<nav id='site-menu' class="fixed top-0 z-30 opacity-100 inset-x-0 bg-opacity-100 flex
+<body id=top class="min-h-screen body-font font-poppins">
+<main>
+<nav id=site-menu class="fixed top-0 z-30 opacity-100 inset-x-0 bg-opacity-100 flex
 flex-col sm:flex-row font-poppins w-full justify-between items-center
-px-4 sm:px-6 py-1 bg-white ">
-    <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
-        <a href="/" class="no-underline"><img
-src="/images/logo.svg" alt="Progress-up Logo" class="w-16 py-0"></a>
-        <button id="menuBtn" class="hamburger block sm:hidden focus:outline-none" type="button" onclick="navToggle();" aria-label="Show Menu">
-	<span class="hamburger__top-bun"></span>
-	<span class="hamburger__middle-bun"></span>
-	<span class="hamburger__bottom-bun"></span></button>
-    </div>
-    <div id="menu" class="opacity-100 bg-white w-full sm:w-auto self-end sm:self-center hidden sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0">
-        
-        <a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=" /screenshots">Screenshots</a>
-	
-        <a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=" /docs">Getting started</a>
-	
-        <a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=" /demo">Demo</a>
-	
-        <a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=" /blog">Blog</a>
-	
-    </div>
+px-4 sm:px-6 py-1 bg-white">
+<div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
+<a href=/ class=no-underline><img src=/images/logo.svg alt="Progress-up Logo" class="w-16 py-0"></a>
+<button id=menuBtn class="hamburger block sm:hidden focus:outline-none" type=button onclick=navToggle() aria-label="Show Menu">
+<span class=hamburger__top-bun></span>
+<span class=hamburger__middle-bun></span>
+<span class=hamburger__bottom-bun></span></button>
+</div>
+<div id=menu class="opacity-100 bg-white w-full sm:w-auto self-end sm:self-center hidden sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0">
+<a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=/screenshots>Screenshots</a>
+<a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=/docs>Getting started</a>
+<a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=/demo>Demo</a>
+<a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=/blog>Blog</a>
+</div>
 </nav>
-
-    
 <section>
 <div class="container m-auto w-2/3 h-82 text-7xl p-2 text-black mt-20 rounded">
-  <div class="items-center mb-4">
-	<h1 class="flex justify-center text-5xl leading-tight mb-4 pb-4">
-	HTML5 multiple file uploader with progress display
-	</h1>
-        <h3 class="flex justify-center text-3xl ">
-	Progress-up fetches files from local disk, shows previews and 
-	uploads in parallel. Has size and MIME filters.
-	  </h3>
-  </div>
-
-  <div class="items-center flex justify-center flex-row">
-<a target="_blank" href='https://github.com/girish1729/progress-up'
-class="text-lg
-  shadow-md text-black no-underline bg-blue-400
+<div class="items-center mb-4">
+<h1 class="flex justify-center text-5xl leading-tight mb-4 pb-4">
+HTML5 multiple file uploader with progress display
+</h1>
+<h3 class="flex justify-center text-3xl">
+Progress-up fetches files from local disk, shows previews and
+uploads in parallel. Has size and MIME filters.
+</h3>
+</div>
+<div class="items-center flex justify-center flex-row">
+<a target=_blank href=https://github.com/girish1729/progress-up class="text-lg
+shadow-md text-black no-underline bg-blue-400
 hover:bg-blue-500 text-black hover:text-white py-2 px-4 border
-border-blue-500 hover:border-transparent rounded mr-4"
->Download</a>
-
-   <a target="_blank" href="/progress-up-html5" class="text-lg
-  shadow-md text-black no-underline bg-transparent
+border-blue-500 hover:border-transparent rounded mr-4">Download</a>
+<a target=_blank href=/progress-up-html5 class="text-lg
+shadow-md text-black no-underline bg-transparent
 hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 Live demo</a>
-   </div>
+</div>
 </div>
 </section>
-
-<section >
-  <h2 class="text-3xl mt-12 mb-4 pb-4 text-center">Works with</h2>
-
-   <div class="items-center flex justify-center flex-row">
-     <a href="/docs/html5-docs" title="Vanilla Javascript">
-            <h5 class="font-bold text-lg mb-3">Vanilla Js</h5>
-	<img width="70" src="/logos/javascript-logo.svg" alt="Javascript" />
-      </a>
-     <a href="/docs/angular-docs" title="Angular" >
-            <h5 class="font-bold text-lg mb-3">Angular</h5>
-	<img width="70" src="/logos/angular-logo.svg" alt="Angular" />
-     </a>
-     <a href="/docs/vue-docs" title="Vue.js">
-            <h5 class="font-bold text-lg mb-3">Vue.js</h5>
-		<img width="70" src="/logos/vue-logo.svg" alt="Vue" />
-      </a>
-     <a href="/docs/react-docs" title="React.js">
-            <h5 class="font-bold text-lg mb-3">React </h5>
-		<img width="70" src="/logos/react-logo.svg" alt="React" />
-     </a>
-     <a href="/docs/svelte-docs" title="Svelte">
-            <h5 class="font-bold text-lg mb-3">Svelte </h5>
-		<img width="70" src="/logos/svelte-logo.svg" alt="Svelte" />
-     </a>
-    </div>
-
-</section>
-
-
-    
-<link rel="stylesheet"  href="/css/normalize.min.css">
-<style>
-h2 {
-	font-size: 30px;
-}
-h3 {
-	font-size: 24px;
-}
-</style>
-
 <section>
-    <div id="progress-up - HTML5 multiple file uploader with progress display" class="w-full flex flex-col md:flex-row justify-center items-center">
-        <div class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
-
-
-                <h2 id="what-is-progress-up">What is Progress-up?</h2>
-<figure><img src="/screenshots/progress-uploading.gif"
-         alt="Uploading gif"/><figcaption>
-            <p>Uploading gif</p>
-        </figcaption>
+<h2 class="text-3xl mt-12 mb-4 pb-4 text-center">Works with</h2>
+<div class="items-center flex justify-center flex-row">
+<a href=/docs/html5-docs title="Vanilla Javascript">
+<h5 class="font-bold text-lg mb-3">Vanilla Js</h5>
+<img width=70 src=/logos/javascript-logo.svg alt=Javascript>
+</a>
+<a href=/docs/angular-docs title=Angular>
+<h5 class="font-bold text-lg mb-3">Angular</h5>
+<img width=70 src=/logos/angular-logo.svg alt=Angular>
+</a>
+<a href=/docs/vue-docs title=Vue.js>
+<h5 class="font-bold text-lg mb-3">Vue.js</h5>
+<img width=70 src=/logos/vue-logo.svg alt=Vue>
+</a>
+<a href=/docs/react-docs title=React.js>
+<h5 class="font-bold text-lg mb-3">React </h5>
+<img width=70 src=/logos/react-logo.svg alt=React>
+</a>
+<a href=/docs/svelte-docs title=Svelte>
+<h5 class="font-bold text-lg mb-3">Svelte </h5>
+<img width=70 src=/logos/svelte-logo.svg alt=Svelte>
+</a>
+</div>
+</section>
+<link rel=stylesheet href=/css/normalize.min.css>
+<style>h2{font-size:30px}h3{font-size:24px}</style>
+<section>
+<div id="progress-up - HTML5 multiple file uploader with progress display" class="w-full flex flex-col md:flex-row justify-center items-center">
+<div class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
+<h2 id=what-is-progress-up>What is Progress-up?</h2>
+<figure><img src=/screenshots/progress-uploading.gif alt="Uploading gif"><figcaption>
+<p>Uploading gif</p>
+</figcaption>
 </figure>
-
 <p>A HTML5 multiple files Upload plugin with progress bar indicator and
 file preview.</p>
-<p>It uses the <a href="https://www.w3.org/TR/FileAPI/" target="_blank">HTTP File API</a>
-
-
- to show continuous progress.</p>
+<p>It uses the <a href=https://www.w3.org/TR/FileAPI/ target=_blank>HTTP File API</a>
+to show continuous progress.</p>
 <p>Now available for</p>
 <ul>
 <li>Angular</li>
@@ -167,78 +112,53 @@ file preview.</p>
 </ul>
 <p>in addition to vanilla Javascript.</p>
 <p>A sample screenshot of the preview function.</p>
-<figure><img src="/screenshots/progress-up-beforeupload.png"
-         alt="More stats"/><figcaption>
-            <p>More stats</p>
-        </figcaption>
+<figure><img src=/screenshots/progress-up-beforeupload.png alt="More stats"><figcaption>
+<p>More stats</p>
+</figcaption>
 </figure>
-
-<h2 id="detailed-instructions">Detailed instructions</h2>
+<h2 id=detailed-instructions>Detailed instructions</h2>
 <ul>
-<li><a href="https://progress-up.live/docs" target="_blank">Developer docs</a>
-
-
+<li><a href=https://progress-up.live/docs target=_blank>Developer docs</a>
 </li>
-<li><a href="https://progress-up.live/demo" target="_blank">Live demo</a>
-
-
+<li><a href=https://progress-up.live/demo target=_blank>Live demo</a>
 </li>
-<li><a href="https://progress-up.live/docs/vue" target="_blank">Vue.js</a>
-
-
+<li><a href=https://progress-up.live/docs/vue target=_blank>Vue.js</a>
 </li>
-<li><a href="https://progress-up.live/docs/angular" target="_blank">Angular</a>
-
-
+<li><a href=https://progress-up.live/docs/angular target=_blank>Angular</a>
 </li>
-<li><a href="https://progress-up.live/docs/react" target="_blank">React</a>
-
-
+<li><a href=https://progress-up.live/docs/react target=_blank>React</a>
 </li>
-<li><a href="https://progress-up.live/docs/svelte" target="_blank">Svelte</a>
-
-
+<li><a href=https://progress-up.live/docs/svelte target=_blank>Svelte</a>
 </li>
 </ul>
-<h2 id="why-should-you-care">Why should you care?</h2>
+<h2 id=why-should-you-care>Why should you care?</h2>
 <p>If you allow multiple large files upload then a progress indicator is a
 cool way to give user feedback.</p>
 <p>Nowadays HTML5 File API based progress is the best way to achieve your
 goal.</p>
-<h2 id="how-to-build-and-run-as-plain-js">How to build and run as plain js</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git clone https://github.com/girish1729/progress.up
+<h2 id=how-to-build-and-run-as-plain-js>How to build and run as plain js</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ git clone https://github.com/girish1729/progress.up
 $ cd progress.up/backend
 $ yarn install
 </code></pre></div><p>Or</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ npm install
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>$ npm install
 
 $ mkdir uploads
 
 $ npm start
-</code></pre></div><p>Now head to <a href="http://localhost:2324" target="_blank">http://localhost:2324</a>
-
-
+</code></pre></div><p>Now head to <a href=http://localhost:2324 target=_blank>http://localhost:2324</a>
 </p>
 <p>to try uploading files.</p>
 <p>The uploaded files are present in <code>backend/uploads</code> folder.</p>
-
-
 <div class="flex justify-center">
-   <a target="_blank" href="/progress-up-html5" class="text-lg
- px-3 py-3 shadow-md text-black no-underline bg-transparent
+<a target=_blank href=/progress-up-html5 class="text-lg
+px-3 py-3 shadow-md text-black no-underline bg-transparent
 hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 Live demo</a>
-
 </div>
-
-
-<h2 id="backend">Backend</h2>
-<p>This backend is <a href="https://expressjs.com" target="_blank">Node.js HTTP server express.js</a>
-
-
- with <a href="http://expressjs.com/en/resources/middleware/multer.html" target="_blank">multer middleware</a>
-
-
+<h2 id=backend>Backend</h2>
+<p>This backend is <a href=https://expressjs.com target=_blank>Node.js HTTP server express.js</a>
+with <a href=http://expressjs.com/en/resources/middleware/multer.html target=_blank>multer middleware</a>
 </p>
 <blockquote>
 <p>This ensures that this code is platform agnostic.
@@ -251,219 +171,135 @@ protocol.</p>
 <p>Please also ensure the file names array in input field matches the
 backend configuration.</p>
 <p>There is also a test upload feature to check if upload protocol works.</p>
-
-
-
-	<h2> Features </h2>
-
+<h2> Features </h2>
 <div class="w-full flex flex-row gap-2 sm:gap-2 lg:gap-2">
-	<div class="w-1/2">
-	    <div class="bg-blue-200 rounded-lg p-2 shadow-lg ">
-	           <div class="typo-p1 mb-2">
-
-					
-				           <p class="text-gray-700
+<div class=w-1/2>
+<div class="bg-blue-200 rounded-lg p-2 shadow-lg">
+<div class="typo-p1 mb-2">
+<p class="text-gray-700
 text-sm"> &#128311; Lightweight and modular &#127880;</p>
-				  	
-				           <p class="text-gray-700
+<p class="text-gray-700
 text-sm"> &#128311; Plugin-based architecture &#128268;</p>
-				  	
-				           <p class="text-gray-700
+<p class="text-gray-700
 text-sm"> &#128311; No dependencies &#127913;</p>
-				  	
-				           <p class="text-gray-700
+<p class="text-gray-700
 text-sm"> &#128311; Track uploads with progress indicator &#128099;</p>
-				  	
-				           <p class="text-gray-700
+<p class="text-gray-700
 text-sm"> &#128311; Drag and drop &#128761;</p>
-				  	
-				           <p class="text-gray-700
+<p class="text-gray-700
 text-sm"> &#128311; Files are previewed before upload &#127916;</p>
-				  	
-
-		   </div>
-	    </div>
-	</div>  
-
-	<div class="w-1/2">
-	    <div class="bg-blue-200 rounded-lg shadow-lg p-2 mb-2">
-	           <div class="typo-p1 mb-2">
-			
-				<p class="text-gray-700 text-sm"> &#128311; 24 hour turnaround for github issues &#127938;</p>
-			
-				<p class="text-gray-700 text-sm"> &#128311; Open source with rich documentation &#127938;</p>
-			
-				<p class="text-gray-700 text-sm"> &#128311; No frills sleek user interface &#127958;</p>
-			
-				<p class="text-gray-700 text-sm"> &#128311; Dark mode support &#127763;</p>
-			
-				<p class="text-gray-700 text-sm"> &#128311; Free to the world, forever &#129345;</p>
-			
-				<p class="text-gray-700 text-sm"> &#128311; Available for all popular web frameworks &#128218;</p>
-			
-		   </div>
-	    </div>
-	</div>  
 </div>
-
-
-
-
-        </div>
-    </div>
-
+</div>
+</div>
+<div class=w-1/2>
+<div class="bg-blue-200 rounded-lg shadow-lg p-2 mb-2">
+<div class="typo-p1 mb-2">
+<p class="text-gray-700 text-sm"> &#128311; 24 hour turnaround for github issues &#127938;</p>
+<p class="text-gray-700 text-sm"> &#128311; Open source with rich documentation &#127938;</p>
+<p class="text-gray-700 text-sm"> &#128311; No frills sleek user interface &#127958;</p>
+<p class="text-gray-700 text-sm"> &#128311; Dark mode support &#127763;</p>
+<p class="text-gray-700 text-sm"> &#128311; Free to the world, forever &#129345;</p>
+<p class="text-gray-700 text-sm"> &#128311; Available for all popular web frameworks &#128218;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
-
-
-
-        </main>
-   <div class="sticky top-[100vh]">
-        
-            <footer class="bg-gray-100 text-center lg:text-left">
-  <div class="container p-6">
-    <div class="grid lg:grid-cols-4 md:grid-cols-2">
-      <div class="mb-6">
-        <h5 class="uppercase mb-2.5 text-gray-800">Resources</h5>
-
-        <ul class="list-none mb-0">
-          <li>
-            <a href="/screenshots" class="text-gray-800">Screenshots</a>
-          </li>
- 
-          <li>
-            <a href="/docs" class="text-gray-800">Getting started</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mb-6">
-        <h5 class="uppercase  mb-2.5 text-gray-800">Demos</h5>
-
-        <ul class="list-none mb-0">
-	 <li>
-            <a href="/progress-up-html5" class="text-gray-800">HTML5
-native</a>
-          </li>
-
-          <li>
-            <a href="/demo/html5-demo" class="text-gray-800">Stackblitz HTML5</a>
-          </li>
-          <li>
-            <a href="/demo/vue-demo" class="text-gray-800">Stackblitz Vue</a>
-          </li>
-          <li>
-            <a href="/demo/angular-demo"
-class="text-gray-800">Stackblitz Angular</a>
-          </li>
-          <li>
-            <a href="/demo/react-demo" class="text-gray-800">Stackblitz React</a>
-          </li>
-          <li>
-            <a href="/demo/svelte-demo" class="text-gray-800">Stackblitz Svelte</a>
-          </li>
-        </ul>
-        </ul>
-      </div>
-
-      <div class="mb-6">
-        <h5 class="uppercase  mb-2.5 text-gray-800">Support</h5>
-
-        <ul class="list-none mb-0">
-          <li>
-            <a target="_blank" href="https://github.com/girish1729/progress-up/issues"
-class="text-gray-800">Issues? File a bug</a>
-          </li>
-
-          <li>
-            <a href="mailto:girish@spamcheetah.com"
-class="text-gray-800">Contact support</a>
-          </li>
-
-          <li>
-            <a href="/blog" class="text-gray-800">Blog</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="mb-6">
-        <h5 class="uppercase mb-2.5 text-gray-800">Packages</h5>
-
-        <ul class="list-none mb-0">
-          <li>
-            <a target="_blank" href="https://github.com/girish1729/progress-up" class="text-gray-800">Github</a>
-          </li>
-
-          <li>
-            <a target="_blank" href="https://www.npmjs.com/progress-up-react"
-class="text-gray-800">React Npm package page</a>
-          </li>
-          <li>
-            <a  target="_blank" href="https://www.npmjs.com/progress-up-angular"
-class="text-gray-800">Angular Npm package page</a>
-          </li>
-
-          <li>
-            <a  target="_blank" href="https://www.npmjs.com/progress-up-vue"
-class="text-gray-800">Vue Npm package page</a>
-          </li>
-
-          <li>
-            <a  target="_blank" href="https://www.npmjs.com/progress-up-svelte"
-class="text-gray-800">Svelte Npm package page</a>
-          </li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-
-  <div class="items-center flex justify-center flex-row">
-<a class="twitter-share-button mr-10" href="https://twitter.com/intent/tweet?text=Tweet+this+to+your+followers&url=https%3A%2F%2Fgithub.com%2Fgirish1729%2Fprogress.up&hashtags=github&original_referer=http%3A%2F%2Fgithub.com%2F&tw_p=tweetbutton" target="_blank" data-size="large">
-       <img src="images/tweet.png" alt="Tweet this" />
-</a>
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="girish1729" data-color="#f3ecec" data-emoji="" data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00" ></script>
+</main>
+<div class="sticky top-[100vh]">
+<footer class="bg-gray-100 text-center lg:text-left">
+<div class="container p-6">
+<div class="grid lg:grid-cols-4 md:grid-cols-2">
+<div class=mb-6>
+<h5 class="uppercase mb-2.5 text-gray-800">Resources</h5>
+<ul class="list-none mb-0">
+<li>
+<a href=/screenshots class=text-gray-800>Screenshots</a>
+</li>
+<li>
+<a href=/docs class=text-gray-800>Getting started</a>
+</li>
+</ul>
 </div>
-
-<br/>
-<br/>
-
-   &#169; 2023 Copyright Progress-up
-    <a href="/privacy-policy">Privacy policy</a>
-    <a target="_blank" href="https://opensource.org/licenses/MIT">MIT license</a>
-  </div>
+<div class=mb-6>
+<h5 class="uppercase mb-2.5 text-gray-800">Demos</h5>
+<ul class="list-none mb-0">
+<li>
+<a href=/progress-up-html5 class=text-gray-800>HTML5
+native</a>
+</li>
+<li>
+<a href=/demo/html5-demo class=text-gray-800>Stackblitz HTML5</a>
+</li>
+<li>
+<a href=/demo/vue-demo class=text-gray-800>Stackblitz Vue</a>
+</li>
+<li>
+<a href=/demo/angular-demo class=text-gray-800>Stackblitz Angular</a>
+</li>
+<li>
+<a href=/demo/react-demo class=text-gray-800>Stackblitz React</a>
+</li>
+<li>
+<a href=/demo/svelte-demo class=text-gray-800>Stackblitz Svelte</a>
+</li>
+</ul>
+</ul>
+</div>
+<div class=mb-6>
+<h5 class="uppercase mb-2.5 text-gray-800">Support</h5>
+<ul class="list-none mb-0">
+<li>
+<a target=_blank href=https://github.com/girish1729/progress-up/issues class=text-gray-800>Issues? File a bug</a>
+</li>
+<li>
+<a href=mailto:girish@spamcheetah.com class=text-gray-800>Contact support</a>
+</li>
+<li>
+<a href=/blog class=text-gray-800>Blog</a>
+</li>
+</ul>
+</div>
+<div class=mb-6>
+<h5 class="uppercase mb-2.5 text-gray-800">Packages</h5>
+<ul class="list-none mb-0">
+<li>
+<a target=_blank href=https://github.com/girish1729/progress-up class=text-gray-800>Github</a>
+</li>
+<li>
+<a target=_blank href=https://www.npmjs.com/progress-up-react class=text-gray-800>React Npm package page</a>
+</li>
+<li>
+<a target=_blank href=https://www.npmjs.com/progress-up-angular class=text-gray-800>Angular Npm package page</a>
+</li>
+<li>
+<a target=_blank href=https://www.npmjs.com/progress-up-vue class=text-gray-800>Vue Npm package page</a>
+</li>
+<li>
+<a target=_blank href=https://www.npmjs.com/progress-up-svelte class=text-gray-800>Svelte Npm package page</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="text-gray-700 text-center p-4" style=background-color:rgba(0,0,0,.2)>
+<div class="items-center flex justify-center flex-row">
+<a class="twitter-share-button mr-10" href="https://twitter.com/intent/tweet?text=Tweet+this+to+your+followers&url=https%3A%2F%2Fgithub.com%2Fgirish1729%2Fprogress.up&hashtags=github&original_referer=http%3A%2F%2Fgithub.com%2F&tw_p=tweetbutton" target=_blank data-size=large>
+<img src=images/tweet.png alt="Tweet this">
+</a>
+<script type=text/javascript src=https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js data-name=bmc-button data-slug=girish1729 data-color=#f3ecec data-emoji data-font=Poppins data-text="Buy me a coffee" data-outline-color=#000000 data-font-color=#000000 data-coffee-color=#FFDD00></script>
+</div>
+<br>
+<br>
+&#169; 2023 Copyright Progress-up
+<a href=/privacy-policy>Privacy policy</a>
+<a target=_blank href=https://opensource.org/licenses/MIT>MIT license</a>
+</div>
 </footer>
-
-        
-    </div> 
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer="defer"></script>
-
-<script type="text/javascript">
-
-var nav = document.getElementById('site-menu');
-var header = document.getElementById('top');
-
-window.addEventListener('scroll', function() {
-  if (window.scrollY >=400) { 
-    nav.classList.add('nav-sticky');
-    header.classList.add('pt-scroll');
-  } else {
-    nav.classList.remove('nav-sticky');
-    header.classList.remove('pt-scroll');
-  }
-});
-
-function navToggle() {
-        var btn = document.getElementById('menuBtn');
-        var nav = document.getElementById('menu');
-
-        btn.classList.toggle('open');
-        nav.classList.toggle('flex');
-        nav.classList.toggle('hidden');
-    }
-</script>
-
+</div>
+<script src=https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js defer></script>
+<script type=text/javascript>var nav=document.getElementById('site-menu'),header=document.getElementById('top');window.addEventListener('scroll',function(){window.scrollY>=400?(nav.classList.add('nav-sticky'),header.classList.add('pt-scroll')):(nav.classList.remove('nav-sticky'),header.classList.remove('pt-scroll'))});function navToggle(){var b=document.getElementById('menuBtn'),a=document.getElementById('menu');b.classList.toggle('open'),a.classList.toggle('flex'),a.classList.toggle('hidden')}</script>
 </body>
 </html>
