@@ -4,7 +4,6 @@ publishdir = "public"
 canonifyUrls = true
 enableEmoji = true
 theme = "hugo-landing-page"
-disableKinds = ["RSS","taxonomy","taxonomyTerm"] 
 title = "progress-up - HTML5 multiple file uploader with progress display" 
 [markup.goldmark.renderer]
     unsafe = true
@@ -27,6 +26,9 @@ title = "progress-up - HTML5 multiple file uploader with progress display"
 [[params.headermenu]]
    link = "/blog"
    title = "Blog"
+[[params.headermenu]]
+   link = "/faq"
+   title = "FAQ"
 #[[params.headermenu]]
 #  link = "/pricing"
 #  title = "Pricing"

@@ -1,5 +1,8 @@
-
-# Privacy Policy
+---
+title: Privacy policy of Progress-up
+date: 2023-10-10 00:00:01
+description: Progress-up privacy policy
+---
 
 Progress-up is an open source file uploader, developed by one person at
 Gayatri Hitech  and is fully open source. And shall continue to be so

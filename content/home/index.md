@@ -22,12 +22,12 @@ A sample screenshot of the preview function.
  
 ## Detailed instructions
 
-- [Developer docs](https://progress-up.live/docs)
-- [Live demo](https://progress-up.live/demo)
-- [Vue.js](https://progress-up.live/docs/vue)
-- [Angular](https://progress-up.live/docs/angular)
-- [React](https://progress-up.live/docs/react)
-- [Svelte](https://progress-up.live/docs/svelte)
+- [Developer docs](/docs)
+- [Live demo](/demo)
+- [Vue.js](/docs/vue-docs)
+- [Angular](/docs/angular-docs)
+- [React](/docs/react-docs)
+- [Svelte](/docs/svelte-docs)
  
 ## Why should you care?
 
