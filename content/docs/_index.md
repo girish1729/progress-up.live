@@ -17,7 +17,7 @@ Here’s the simplest example html page with Progress-up (it uses a CDN bundle, 
 
 {{<rawhtml>}}
 <div class="flex justify-center">
-   <a target="_blank" href="/progress-up-html5" class="text-lg
+   <a target="_blank" href="https://luxury-kangaroo-af6a24.netlify.app" class="text-lg
  px-3 py-3 shadow-md text-black no-underline bg-transparent
 hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 Live demo</a>

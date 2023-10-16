@@ -24,7 +24,7 @@ hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-50
 
 {{<rawhtml>}}
 <div class="flex justify-center">
-<a target="_blank" href="/progress-up-html5"
+<a target="_blank" href="https://luxury-kangaroo-af6a24.netlify.app"
 class="text-lg
  px-3 py-3 shadow-md text-black no-underline bg-transparent
 hover:bg-blue-500 text-blue-700 hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
