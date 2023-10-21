@@ -21,6 +21,19 @@ First install the plugin for svelte.
 	$ yarn add progress-up-svelte
 ```
 
+Configure config.json like this. This file lives inside the 
+
+`<svelte-root>/src` directory.
+
+```json
+
+{
+         "uploadURL": "https://localhost:2324/uploadmultiple",
+         "filesName": "uploadFiles",
+         "progressType": "Line"
+}
+  
+```
 
 
 This is `src/main.ts`.

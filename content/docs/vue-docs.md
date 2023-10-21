@@ -23,6 +23,22 @@ First install the plugin for vue.
 	$ yarn add progress-up-vue
 ```
 
+Configure config.json like this. This file lives inside the 
+
+`<vueproject-root>/` directory.
+
+```json
+
+{
+         "uploadURL": "https://localhost:2324/uploadmultiple",
+         "filesName": "uploadFiles",
+         "progressType": "Line"
+}
+  
+```
+
+
+
 This is `src/main.ts`.
 
 ```js

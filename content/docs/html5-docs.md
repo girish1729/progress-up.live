@@ -21,11 +21,12 @@ The progress-up plugin is composed of some moving parts.
 
 The most important ones are
 
-- tailwind CSS
-- loading.io progress indicators
+- Tailwind CSS
+- Loading.io progress indicators
+- Config file config.js
 - HTML5 drag and drop
 - HTML5 file upload protocol
-- input file element
+- Input file element
 
 So for you to use the HTML5 code in progress-up directly in your app the
 only way is to copy paste the code into your application.

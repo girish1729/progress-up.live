@@ -19,6 +19,23 @@ First install the plugin for Angular.
 	$ yarn add progress-up-angular
 ```
 
+Configure config.json like this. This file lives inside the 
+
+`<angular-root>/src` directory.
+
+```json
+
+{
+         "uploadURL": "https://localhost:2324/uploadmultiple",
+         "filesName": "uploadFiles",
+         "progressType": "Line"
+}
+  
+```
+
+For instance if following below structure the location of config file is 
+`progress-up-test/src`.
+
 - Create a new project
 
 ```shell

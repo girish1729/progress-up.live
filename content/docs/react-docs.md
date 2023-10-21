@@ -24,6 +24,22 @@ First install the plugin for react.
 	$ yarn add progress-up-react
 ```
 
+Configure config.json like this. This file lives inside the 
+
+`<project-root>` directory.
+
+```json
+
+{
+         "uploadURL": "https://localhost:2324/uploadmultiple",
+         "filesName": "uploadFiles",
+         "progressType": "Line"
+}
+  
+```
+
+
+
 This is `src/main.tsx`.
 
 ```ts
