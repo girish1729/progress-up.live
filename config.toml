@@ -29,9 +29,9 @@ title = "progress-up - HTML5 multiple file uploader with progress display"
 [[params.headermenu]]
    link = "/faq"
    title = "FAQ"
-#[[params.headermenu]]
-#  link = "/pricing"
-#  title = "Pricing"
+[[params.headermenu]]
+  link = "/pricing"
+  title = "Pricing"
 
 
 [[params.social]]
